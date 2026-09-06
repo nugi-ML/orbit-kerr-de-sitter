@@ -1,4 +1,4 @@
-# Simulasi Pelacakan Sinar (Ray-Tracing) pada Ruang-Waktu Kerr-de Sitter
+# Simulasi Lintasan Foton pada Ruang-Waktu Kerr-de Sitter
 
 Repositori ini berisi implementasi komputasi numerik untuk menyimulasikan lintasan foton (*null geodesics*) di sekitar lubang hitam berotasi dengan pengaruh konstanta kosmologis (Metrik Kerr-de Sitter) dalam kerangka Teori Relativitas Umum Einstein. 
 
@@ -136,8 +136,7 @@ python src/generate_equations.py
 ## 📐 Landasan Teori & Formulasi Matematis
 
 ### 1. Metrik Kerr-de Sitter (Koordinat Boyer-Lindquist)
-
-Bentuk elemen garis (*line element*) $ds^2$ pada ruang-waktu Kerr-de Sitter dalam koordinat Boyer-Lindquist $(t, r, \theta, \phi)$ diberikan oleh:
+Elemen garis $ds^2 = g_{\mu\nu} dx^\mu dx^\nu$ di bidang ekuator/ruang-waktu Kerr-de Sitter didefinisikan dengan fungsi-fungsi metrik:
 
 $$ds^2 = -\frac{\Delta_r}{\Sigma}\left(dt - \frac{a \sin^2\theta}{\Xi} d\phi\right)^2 + \frac{\Sigma}{\Delta_r} dr^2 + \frac{\Sigma}{\Delta_\theta} d\theta^2 + \frac{\Delta_\theta \sin^2\theta}{\Sigma}\left(a dt - \frac{r^2 + a^2}{\Xi} d\phi\right)^2$$
 
