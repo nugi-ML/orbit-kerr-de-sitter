@@ -136,7 +136,11 @@ python src/generate_equations.py
 ## 📐 Landasan Teori & Formulasi Matematis
 
 ### 1. Metrik Kerr-de Sitter (Koordinat Boyer-Lindquist)
-Elemen garis $ds^2 = g_{\mu\nu} dx^\mu dx^\nu$ di bidang ekuator/ruang-waktu Kerr-de Sitter didefinisikan dengan fungsi-fungsi metrik:
+Bentuk elemen garis (*line element*) $ds^2$ pada ruang-waktu Kerr-de Sitter dalam koordinat Boyer-Lindquist $(t, r, \theta, \phi)$ diberikan oleh:
+
+$$ds^2 = -\frac{\Delta_r}{\Sigma}\left(dt - \frac{a \sin^2\theta}{\Xi} d\phi\right)^2 + \frac{\Sigma}{\Delta_r} dr^2 + \frac{\Sigma}{\Delta_\theta} d\theta^2 + \frac{\Delta_\theta \sin^2\theta}{\Sigma}\left(a dt - \frac{r^2 + a^2}{\Xi} d\phi\right)^2$$
+
+dengan fungsi-fungsi metrik:
 $$\Sigma = r^2 + a^2 \cos^2\theta$$
 $$\Delta_r = (r^2 + a^2)\left(1 - \frac{\Lambda r^2}{3}\right) - 2Mr$$
 $$\Delta_\theta = 1 + \frac{\Lambda a^2 \cos^2\theta}{3}$$
@@ -144,6 +148,7 @@ $$\Xi = 1 + \frac{\Lambda a^2}{3}$$
 
 ### 2. Dinamika Geodesik Foton (Hamiltonian Formalism)
 Lintasan foton (*null geodesic*) memenuhi kondisi super-Hamiltonian:
+
 $$\mathcal{H}(x^\mu, p_\mu) = \frac{1}{2} g^{\mu\nu}(x) p_\mu p_\nu = 0$$
 
 Persamaan gerak kanonik Hamilton:
