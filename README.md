@@ -136,14 +136,19 @@ python src/generate_equations.py
 ## 📐 Landasan Teori & Formulasi Matematis
 
 ### 1. Metrik Kerr-de Sitter (Koordinat Boyer-Lindquist)
+
 Bentuk elemen garis (*line element*) $ds^2$ pada ruang-waktu Kerr-de Sitter dalam koordinat Boyer-Lindquist $(t, r, \theta, \phi)$ diberikan oleh:
 
 $$ds^2 = -\frac{\Delta_r}{\Sigma}\left(dt - \frac{a \sin^2\theta}{\Xi} d\phi\right)^2 + \frac{\Sigma}{\Delta_r} dr^2 + \frac{\Sigma}{\Delta_\theta} d\theta^2 + \frac{\Delta_\theta \sin^2\theta}{\Sigma}\left(a dt - \frac{r^2 + a^2}{\Xi} d\phi\right)^2$$
 
 dengan fungsi-fungsi metrik:
+
 $$\Sigma = r^2 + a^2 \cos^2\theta$$
+
 $$\Delta_r = (r^2 + a^2)\left(1 - \frac{\Lambda r^2}{3}\right) - 2Mr$$
+
 $$\Delta_\theta = 1 + \frac{\Lambda a^2 \cos^2\theta}{3}$$
+
 $$\Xi = 1 + \frac{\Lambda a^2}{3}$$
 
 ### 2. Dinamika Geodesik Foton (Hamiltonian Formalism)
@@ -152,15 +157,20 @@ Lintasan foton (*null geodesic*) memenuhi kondisi super-Hamiltonian:
 $$\mathcal{H}(x^\mu, p_\mu) = \frac{1}{2} g^{\mu\nu}(x) p_\mu p_\nu = 0$$
 
 Persamaan gerak kanonik Hamilton:
+
 $$\frac{dx^\mu}{d\tau} = \frac{\partial \mathcal{H}}{\partial p_\mu}$$
+
 $$\frac{dp_\mu}{d\tau} = -\frac{\partial \mathcal{H}}{\partial x^\mu}$$
+
 dengan $\tau$ merupakan parameter afin lintasan foton.
 
 ### 3. Kondisi Awal & Sudut Defleksi
 Untuk foton yang datang dari jarak jauh $r_0$ dengan energi $E$ dan parameter impak $b$ ($L = bE$), momentum radial awal $p_r$ ditentukan dari constraint $\mathcal{H} = 0$:
+
 $$p_r = -\sqrt{-\frac{g^{tt}E^2 + g^{\phi\phi}L^2 - 2g^{t\phi}EL}{g^{rr}}}$$
 
 Sudut defleksi $\hat{\alpha}$ dihitung dari perubahan azimuth total foton yang lolos (*scattering*):
+
 $$\hat{\alpha} = |\Delta\phi - \pi| = |\phi_{\text{out}} - \phi_{\text{in}} - \pi|$$
 
 ---
