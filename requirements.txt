@@ -1,0 +1,12 @@
+# Core Numerical & Scientific Computing
+numpy>=2.0.0
+scipy>=1.15.0
+sympy>=1.13.0
+pandas>=2.2.0
+
+# Visualization
+matplotlib>=3.10.0
+
+# Jupyter Notebook & Interactive Kernel
+ipykernel>=6.29.0
+
