@@ -38,7 +38,6 @@ orbit-foton-kerr/
 │   ├── a_0.6/                    # Data simulasi untuk spin a = 0.6
 │   ├── a_0.8/                    # Data simulasi untuk spin a = 0.8
 │   ├── a_0.99/                   # Data simulasi untuk spin a = 0.99 (Extreme Kerr-de Sitter)
-│   └── a_-0.99/                  # Data simulasi untuk spin a = -0.99 (Retrograde orbit)
 ├── notebooks/                    # Eksplorasi dan analisis interaktif
 │   ├── Analisis_Data.ipynb       # Notebook visualisasi dan analisis data CSV
 │   ├── Penelitian_S1.ipynb       # Notebook eksperimen awal (arsip)
@@ -163,17 +162,17 @@ $$\hat{\alpha} = |\Delta\phi - \pi| = |\phi_{\text{out}} - \phi_{\text{in}} - \p
 
 ## 📊 Hasil Komputasi
 
-Contoh hasil defleksi sudut untuk spin $a = -0.99$ dan berbagai variasi konstanta kosmologis $\Lambda$:
+Contoh hasil defleksi sudut untuk spin $a = 0.8$ dan berbagai variasi konstanta kosmologis $\Lambda$:
 
 | $a$ | $\Lambda$ | Defleksi ($^\circ$) | Waktu Komputasi |
 | :---: | :---: | :---: | :---: |
-| -0.99 | $0$ | 244.4702 | 10.65 dtk |
-| -0.99 | $-1 \times 10^{-8}$ | 244.4689 | 8.69 dtk |
-| -0.99 | $-5 \times 10^{-8}$ | 244.4636 | 8.63 dtk |
-| -0.99 | $-1 \times 10^{-7}$ | 244.4570 | 11.09 dtk |
-| -0.99 | $-5 \times 10^{-7}$ | 244.4042 | 9.68 dtk |
-| -0.99 | $-1 \times 10^{-6}$ | 244.3380 | 10.51 dtk |
-| -0.99 | $-5 \times 10^{-6}$ | 243.8062 | 10.11 dtk |
+| 0.8 | $0$ | 46.4746 | 7.92 dtk |
+| 0.8 | $1 \times 10^{-8}$ | 46.4748 | 7.88 dtk |
+| 0.8 | $5 \times 10^{-8}$ | 46.4755 | 7.96 dtk |
+| 0.8 | $1 \times 10^{-7}$ | 46.4763 | 7.73 dtk |
+| 0.8 | $5 \times 10^{-7}$ | 46.4831 | 8.17 dtk |
+| 0.8 | $1 \times 10^{-6}$ | 46.4918 | 8.28 dtk |
+| 0.8 | $5 \times 10^{-6}$ | 46.5730 | 7.52 dtk |
 
 Grafik lintasan yang dihasilkan dapat dilihat pada direktori [results/](file:///c:/Users/nugip/Documents/orbit-foton-kerr/results/).
 
